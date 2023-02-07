@@ -44,10 +44,29 @@
  
 // Question_7
  
-var anyNum = "Enter a Number";
-var defaultAnswar = 5;
-var num = prompt(anyNum,defaultAnswar )
-for(var i = 1 ; i<=10 ; i++){
-    var result = num * i;
-    document.write(`${num} * ${i} = ${result} `+ "<br>");
-};
+//  var anyNum = "Enter a Number";
+//  var defaultAnswar = 5;
+//  var num = prompt(anyNum,defaultAnswar )
+//  for(var i = 1 ; i<=10 ; i++){
+//      var result = num * i;
+//      document.write(`${num} * ${i} = ${result} `+ "<br>");
+//  };
+
+var age = 20;
+switch(true){
+case(age >= 38 && age <= 30):document.write("you are eligible ")
+break;
+default:document.write("not eligible")
+}
+
+//  var age = 20;
+
+//  if (age >= 510){
+//      document.write("This is true");
+//  }else{
+//     document.write("sorry")
+//  };
+ 
+//  var age =19;
+//  var drive = age >= 18 ? "yes":"no";
+//  document.write(drive);
